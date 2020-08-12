@@ -30,9 +30,9 @@ export default class Servers extends Component {
     super(props)
 
     this.state = {
-      host: 'localhost',
-      port: '4222',
-      monitoringPort: '8222',
+      host: 'nats-streaming.hack-tribe.svc.cluster.local',
+      port: '4223',
+      monitoringPort: '8223',
       connected: false,
       config: undefined,
       servers: undefined
